@@ -1,12 +1,10 @@
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+import PageWrapper from '../components/PageWrapper';
+import Hero from '../components/Hero';
 
-const Home =()=>{
-    return(
-        <div>
-            <Navbar/>
-            <Footer/>
-        </div>
-    )
+export default function Home() {
+  return (
+    <PageWrapper>
+      <Hero />
+    </PageWrapper>
+  );
 }
-export default Home
